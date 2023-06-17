@@ -42,39 +42,39 @@ com.demoapplication.app-lifecycle-viewmodel-2.3.1-40 /home/hb/.gradle/caches/tra
 com.demoapplication.app-jetified-tracing-1.1.0-41 /home/hb/.gradle/caches/transforms-3/eea2ae4924284fbca59b7fed8fe70df2/transformed/jetified-tracing-1.1.0/res
 com.demoapplication.app-jetified-emoji2-views-helper-1.0.0-42 /home/hb/.gradle/caches/transforms-3/f153d48e78f6e563034f926fa5ac50b3/transformed/jetified-emoji2-views-helper-1.0.0/res
 com.demoapplication.app-coordinatorlayout-1.1.0-43 /home/hb/.gradle/caches/transforms-3/f2e460e79192f7e587af2d94dc9b16ef/transformed/coordinatorlayout-1.1.0/res
-com.demoapplication.app-google-services-44 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/build/generated/res/google-services/debug
-com.demoapplication.app-pngs-45 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/build/generated/res/pngs/debug
-com.demoapplication.app-resValues-46 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/build/generated/res/resValues/debug
-com.demoapplication.app-rs-47 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/build/generated/res/rs/debug
-com.demoapplication.app-mergeDebugResources-48 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-com.demoapplication.app-mergeDebugResources-49 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-com.demoapplication.app-merged_res-50 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/build/intermediates/merged_res/debug
-com.demoapplication.app-debug-51 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/res
-com.demoapplication.app-main-52 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/res
-com.demoapplication.app-packaged_res-53 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-54 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-community/datetimepicker/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-55 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-community/geolocation/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-56 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-community/slider/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-57 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-58 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-59 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/lottie-react-native/src/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-60 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-61 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/packaged_res/generalDebug
-com.demoapplication.app-packaged_res-62 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-gesture-handler/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-63 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-64 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-65 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-linear-gradient/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-66 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-localization/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-67 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-maps/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-68 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-orientation-locker/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-69 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-pager-view/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-70 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-pdf/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-71 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-permissions/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-72 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-73 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-74 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-75 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-svg/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-76 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-77 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-78 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-video/android/build/intermediates/packaged_res/debug
-com.demoapplication.app-packaged_res-79 /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-google-services-44 /home/hb/Desktop/Projects/DemoApplication/android/app/build/generated/res/google-services/debug
+com.demoapplication.app-pngs-45 /home/hb/Desktop/Projects/DemoApplication/android/app/build/generated/res/pngs/debug
+com.demoapplication.app-resValues-46 /home/hb/Desktop/Projects/DemoApplication/android/app/build/generated/res/resValues/debug
+com.demoapplication.app-rs-47 /home/hb/Desktop/Projects/DemoApplication/android/app/build/generated/res/rs/debug
+com.demoapplication.app-mergeDebugResources-48 /home/hb/Desktop/Projects/DemoApplication/android/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.demoapplication.app-mergeDebugResources-49 /home/hb/Desktop/Projects/DemoApplication/android/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.demoapplication.app-merged_res-50 /home/hb/Desktop/Projects/DemoApplication/android/app/build/intermediates/merged_res/debug
+com.demoapplication.app-debug-51 /home/hb/Desktop/Projects/DemoApplication/android/app/src/debug/res
+com.demoapplication.app-main-52 /home/hb/Desktop/Projects/DemoApplication/android/app/src/main/res
+com.demoapplication.app-packaged_res-53 /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-54 /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-community/datetimepicker/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-55 /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-community/geolocation/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-56 /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-community/slider/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-57 /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-58 /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-59 /home/hb/Desktop/Projects/DemoApplication/node_modules/lottie-react-native/src/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-60 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-61 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-camera/android/build/intermediates/packaged_res/generalDebug
+com.demoapplication.app-packaged_res-62 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-gesture-handler/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-63 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-64 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-65 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-linear-gradient/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-66 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-localization/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-67 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-maps/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-68 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-orientation-locker/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-69 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-pager-view/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-70 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-pdf/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-71 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-permissions/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-72 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-73 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-74 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-share/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-75 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-svg/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-76 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-77 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-78 /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-video/android/build/intermediates/packaged_res/debug
+com.demoapplication.app-packaged_res-79 /home/hb/Desktop/Projects/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/packaged_res/debug

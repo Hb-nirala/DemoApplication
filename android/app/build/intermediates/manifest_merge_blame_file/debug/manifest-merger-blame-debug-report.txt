@@ -9,168 +9,168 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:3:3-65
-12-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:3:20-62
+12-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:3:3-65
+12-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:3:20-62
 13    <uses-permission android:name="android.permission.ACCEPT_HANDOVER" />
-13-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:4:3-72
-13-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:4:20-69
+13-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:4:3-72
+13-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:4:20-69
 14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-14-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:5:3-83
-14-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:5:20-80
+14-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:5:3-83
+14-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:5:20-80
 15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-15-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:6:3-79
-15-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:6:20-76
+15-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:6:3-79
+15-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:6:20-76
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:7:3-77
-16-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:7:20-74
+16-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:7:3-77
+16-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:7:20-74
 17    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
-17-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:8:3-78
-17-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:8:20-75
+17-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:8:3-78
+17-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:8:20-75
 18    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-18-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:9:3-77
-18-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:9:20-74
+18-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:9:3-77
+18-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:9:20-74
 19    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
-19-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:10:3-84
-19-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:10:20-81
+19-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:10:3-84
+19-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:10:20-81
 20    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
-20-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:11:3-75
-20-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:11:20-72
+20-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:11:3-75
+20-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:11:20-72
 21    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
-21-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:12:3-76
-21-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:12:20-73
+21-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:12:3-76
+21-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:12:20-73
 22    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-22-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:13:3-74
-22-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:13:20-71
+22-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:13:3-74
+22-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:13:20-71
 23    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-23-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:14:3-71
-23-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:14:20-68
+23-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:14:3-71
+23-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:14:20-68
 24    <uses-permission android:name="android.permission.BODY_SENSORS" />
-24-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:15:3-69
-24-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:15:20-66
+24-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:15:3-69
+24-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:15:20-66
 25    <uses-permission android:name="android.permission.BODY_SENSORS_BACKGROUND" />
-25-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:16:3-80
-25-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:16:20-77
+25-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:16:3-80
+25-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:16:20-77
 26    <uses-permission android:name="android.permission.CALL_PHONE" />
-26-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:17:3-67
-26-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:17:20-64
+26-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:17:3-67
+26-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:17:20-64
 27    <uses-permission android:name="android.permission.CAMERA" />
-27-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:18:3-63
-27-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:18:20-60
+27-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:18:3-63
+27-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:18:20-60
 28    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-28-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:19:3-69
-28-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:19:20-66
+28-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:19:3-69
+28-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:19:20-66
 29    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
-29-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:20:3-76
-29-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:20:20-73
+29-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:20:3-76
+29-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:20:20-73
 30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-30-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:21:3-75
-30-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:21:20-72
+30-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:21:3-75
+30-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:21:20-72
 31    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
-31-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:22:3-79
-31-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:22:20-76
+31-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:22:3-79
+31-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:22:20-76
 32    <uses-permission android:name="android.permission.READ_CALENDAR" />
-32-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:23:3-70
-32-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:23:20-67
+32-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:23:3-70
+32-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:23:20-67
 33    <uses-permission android:name="android.permission.READ_CALL_LOG" />
-33-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:24:3-70
-33-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:24:20-67
+33-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:24:3-70
+33-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:24:20-67
 34    <uses-permission android:name="android.permission.READ_CONTACTS" />
-34-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:25:3-70
-34-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:25:20-67
+34-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:25:3-70
+34-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:25:20-67
 35    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-35-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:26:3-78
-35-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:26:20-75
+35-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:26:3-78
+35-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:26:20-75
 36    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
-36-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:27:3-73
-36-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:27:20-70
+36-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:27:3-73
+36-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:27:20-70
 37    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-37-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:28:3-74
-37-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:28:20-71
+37-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:28:3-74
+37-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:28:20-71
 38    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-38-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:29:3-73
-38-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:29:20-70
+38-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:29:3-73
+38-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:29:20-70
 39    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
-39-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:30:3-75
-39-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:30:20-72
+39-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:30:3-75
+39-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:30:20-72
 40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-40-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:31:3-73
-40-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:31:20-70
+40-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:31:3-73
+40-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:31:20-70
 41    <uses-permission android:name="android.permission.READ_SMS" />
-41-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:32:3-65
-41-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:32:20-62
+41-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:32:3-65
+41-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:32:20-62
 42    <uses-permission android:name="android.permission.RECEIVE_MMS" />
-42-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:33:3-68
-42-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:33:20-65
+42-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:33:3-68
+42-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:33:20-65
 43    <uses-permission android:name="android.permission.RECEIVE_SMS" />
-43-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:34:3-68
-43-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:34:20-65
+43-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:34:3-68
+43-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:34:20-65
 44    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
-44-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:35:3-73
-44-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:35:20-70
+44-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:35:3-73
+44-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:35:20-70
 45    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-45-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:36:3-69
-45-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:36:20-66
+45-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:36:3-69
+45-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:36:20-66
 46    <uses-permission android:name="android.permission.SEND_SMS" />
-46-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:37:3-65
-46-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:37:20-62
+46-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:37:3-65
+46-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:37:20-62
 47    <uses-permission android:name="android.permission.USE_SIP" />
-47-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:38:3-64
-47-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:38:20-61
+47-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:38:3-64
+47-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:38:20-61
 48    <uses-permission android:name="android.permission.UWB_RANGING" />
-48-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:39:3-68
-48-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:39:20-65
+48-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:39:3-68
+48-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:39:20-65
 49    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
-49-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:40:3-71
-49-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:40:20-68
+49-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:40:3-71
+49-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:40:20-68
 50    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
-50-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:41:3-71
-50-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:41:20-68
+50-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:41:3-71
+50-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:41:20-68
 51    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
-51-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:42:3-71
-51-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:42:20-68
+51-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:42:3-71
+51-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:42:20-68
 52    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-52-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:43:3-79
-52-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:43:20-76
+52-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:43:3-79
+52-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:43:20-76
 53    <uses-permission android:name="android.permission.VIBRATE" />
-53-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:44:3-63
-53-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:44:20-61
+53-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:44:3-63
+53-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:44:20-61
 54    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 54-->[com.facebook.flipper:flipper:0.125.0] /home/hb/.gradle/caches/transforms-3/87e9e28f7203a27b2f2a5f52d412de1f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
 54-->[com.facebook.flipper:flipper:0.125.0] /home/hb/.gradle/caches/transforms-3/87e9e28f7203a27b2f2a5f52d412de1f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
 55
 56    <uses-feature
-56-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+56-->[:react-native-camera] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
 57        android:name="android.hardware.camera"
-57-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
+57-->[:react-native-camera] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
 58        android:required="false" />
-58-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
+58-->[:react-native-camera] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
 59    <uses-feature
-59-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+59-->[:react-native-camera] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
 60        android:name="android.hardware.camera.autofocus"
-60-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
+60-->[:react-native-camera] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
 61        android:required="false" />
-61-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
+61-->[:react-native-camera] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
 62
 63    <uses-permission android:name="android.permission.WAKE_LOCK" />
-63-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
-63-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+63-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+63-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
 64    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to to download files without a notification -->
-64-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
-64-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+64-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+64-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
 65    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-65-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:5-88
-65-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:22-85
+65-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:5-88
+65-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:22-85
 66
 67    <queries>
-67-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+67-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
 68        <intent>
-68-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+68-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
 69            <action android:name="android.media.action.IMAGE_CAPTURE" />
-69-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
-69-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+69-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+69-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
 70        </intent>
 71
 72        <package android:name="androidx.test.orchestrator" />
@@ -188,11 +188,11 @@
 76    </queries>
 77
 78    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required to access Google Play Licensing -->
-78-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
-78-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
+78-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
+78-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
 79    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
-79-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
-79-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+79-->[:rn-fetch-blob] /home/hb/Desktop/Projects/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+79-->[:rn-fetch-blob] /home/hb/Desktop/Projects/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
 80    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 80-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
 80-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
@@ -219,145 +219,145 @@
 91-->[androidx.core:core:1.9.0] /home/hb/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 92
 93    <application
-93-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:52:5-76:19
+93-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:52:5-76:19
 94        android:name="com.demoapplication.MainApplication"
-94-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:53:7-38
+94-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:53:7-38
 95        android:allowBackup="false"
-95-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:57:7-34
+95-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:57:7-34
 96        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 96-->[androidx.core:core:1.9.0] /home/hb/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 97        android:debuggable="true"
 98        android:icon="@mipmap/ic_launcher"
-98-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:55:7-41
+98-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:55:7-41
 99        android:label="@string/app_name"
-99-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:54:7-39
+99-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:54:7-39
 100        android:roundIcon="@mipmap/ic_launcher_round"
-100-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:56:7-52
+100-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:56:7-52
 101        android:supportsRtl="true"
-101-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:59:7-33
+101-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:59:7-33
 102        android:testOnly="true"
 103        android:theme="@style/AppTheme"
-103-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:58:7-38
+103-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:58:7-38
 104        android:usesCleartextTraffic="true" >
-104-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:8:9-44
+104-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/debug/AndroidManifest.xml:8:9-44
 105        <activity
-105-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:9-111
+105-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:9-111
 106            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-106-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:19-83
+106-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:19-83
 107            android:exported="false" />
-107-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:84-108
+107-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:84-108
 108        <activity
-108-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:60:7-72:18
+108-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:60:7-72:18
 109            android:name="com.demoapplication.MainActivity"
-109-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:61:9-37
+109-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:61:9-37
 110            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-110-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:63:9-118
+110-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:63:9-118
 111            android:exported="true"
-111-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:66:9-32
+111-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:66:9-32
 112            android:label="@string/app_name"
-112-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:62:9-41
+112-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:62:9-41
 113            android:launchMode="singleTask"
-113-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:64:9-40
+113-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:64:9-40
 114            android:windowSoftInputMode="adjustResize" >
-114-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:65:9-51
+114-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:65:9-51
 115            <intent-filter>
-115-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:67:9-71:25
+115-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:67:9-71:25
 116                <action android:name="android.intent.action.MAIN" />
-116-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:68:13-65
-116-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:68:21-62
+116-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:68:13-65
+116-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:68:21-62
 117
 118                <category android:name="android.intent.category.LAUNCHER" />
-118-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:69:13-73
-118-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:69:23-70
+118-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:69:13-73
+118-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:69:23-70
 119
 120                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
-120-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:70:13-77
-120-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:70:21-75
+120-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:70:13-77
+120-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:70:21-75
 121            </intent-filter>
 122        </activity>
 123
 124        <meta-data
-124-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:73:7-75:63
+124-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:73:7-75:63
 125            android:name="com.google.android.geo.API_KEY"
-125-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:74:6-51
+125-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:74:6-51
 126            android:value="AIzaSyBVkJDc7qZ0BgHY_wcPUTTvKE1iOW_il5o" />
-126-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:75:6-61
+126-->/home/hb/Desktop/Projects/DemoApplication/android/app/src/main/AndroidManifest.xml:75:6-61
 127
 128        <service
-128-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+128-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
 129            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
-129-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+129-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
 130            android:exported="false" />
-130-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+130-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
 131        <service
-131-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+131-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
 132            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
-132-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+132-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
 133            android:exported="false" >
-133-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+133-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
 134            <intent-filter>
-134-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+134-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
 135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-135-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
-135-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+135-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+135-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
 136            </intent-filter>
 137        </service>
 138
 139        <receiver
-139-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+139-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
 140            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
-140-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+140-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
 141            android:exported="true"
-141-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+141-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
 142            android:permission="com.google.android.c2dm.permission.SEND" >
-142-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+142-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
 143            <intent-filter>
-143-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+143-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
 144                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-144-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
-144-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+144-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+144-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
 145            </intent-filter>
 146        </receiver>
 147
 148        <meta-data
-148-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+148-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
 149            android:name="firebase_messaging_auto_init_enabled"
-149-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+149-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
 150            android:value="true" />
-150-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+150-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
 151        <meta-data
-151-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+151-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
 152            android:name="com.google.firebase.messaging.default_notification_channel_id"
-152-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+152-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
 153            android:value="" />
-153-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+153-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
 154        <meta-data
-154-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+154-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
 155            android:name="com.google.firebase.messaging.default_notification_color"
-155-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+155-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
 156            android:resource="@color/white" />
-156-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+156-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
 157        <meta-data
-157-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+157-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
 158            android:name="app_data_collection_default_enabled"
-158-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+158-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
 159            android:value="true" />
-159-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+159-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
 160
 161        <service
-161-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+161-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
 162            android:name="com.google.firebase.components.ComponentDiscoveryService"
-162-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+162-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
 163            android:directBootAware="true"
-163-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+163-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
 164            android:exported="false" >
-164-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+164-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
 165            <meta-data
-165-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+165-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
 166                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
-166-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+166-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
 167                android:value="com.google.firebase.components.ComponentRegistrar" />
-167-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+167-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
 168            <meta-data
 168-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
 169                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
@@ -379,136 +379,136 @@
 177        </service>
 178
 179        <provider
-179-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+179-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
 180            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
-180-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+180-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
 181            android:authorities="com.demoapplication.reactnativefirebaseappinitprovider"
-181-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+181-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
 182            android:exported="false"
-182-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+182-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
 183            android:initOrder="99" />
-183-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+183-->[:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
 184        <provider
-184-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-45:20
+184-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-45:20
 185            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
-185-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-70
+185-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-70
 186            android:authorities="com.demoapplication.provider"
-186-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-60
+186-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-60
 187            android:exported="false"
-187-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-37
+187-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-37
 188            android:grantUriPermissions="true" >
-188-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-47
+188-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-47
 189            <meta-data
-189-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+189-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
 190                android:name="android.support.FILE_PROVIDER_PATHS"
-190-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+190-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
 191                android:resource="@xml/provider_paths" />
-191-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+191-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
 192        </provider>
 193        <provider
-193-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+193-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
 194            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
-194-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+194-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
 195            android:authorities="com.demoapplication.provider"
-195-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+195-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
 196            android:exported="false"
-196-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+196-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
 197            android:grantUriPermissions="true" >
-197-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+197-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
 198            <meta-data
-198-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+198-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
 199                android:name="android.support.FILE_PROVIDER_PATHS"
-199-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+199-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
 200                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
-200-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+200-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
 201        </provider>
 202
 203        <activity
-203-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+203-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
 204            android:name="com.yalantis.ucrop.UCropActivity"
-204-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+204-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
 205            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-205-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+205-->[:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
 206
 207        <provider
-207-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+207-->[:react-native-image-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 208            android:name="com.imagepicker.ImagePickerProvider"
-208-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+208-->[:react-native-image-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
 209            android:authorities="com.demoapplication.imagepickerprovider"
-209-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+209-->[:react-native-image-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
 210            android:exported="false"
-210-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+210-->[:react-native-image-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 211            android:grantUriPermissions="true" >
-211-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+211-->[:react-native-image-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 212            <meta-data
-212-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+212-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
 213                android:name="android.support.FILE_PROVIDER_PATHS"
-213-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+213-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
 214                android:resource="@xml/imagepicker_provider_paths" />
-214-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+214-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
 215        </provider>
 216        <provider
-216-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+216-->[:react-native-share] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 217            android:name="cl.json.RNShareFileProvider"
-217-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-55
+217-->[:react-native-share] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-55
 218            android:authorities="com.demoapplication.rnshare.fileprovider"
-218-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-72
+218-->[:react-native-share] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-72
 219            android:exported="false"
-219-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+219-->[:react-native-share] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 220            android:grantUriPermissions="true" >
-220-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+220-->[:react-native-share] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 221            <meta-data
-221-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+221-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
 222                android:name="android.support.FILE_PROVIDER_PATHS"
-222-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+222-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
 223                android:resource="@xml/share_download_paths" />
-223-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+223-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
 224        </provider> <!-- The main service, handles playback, playlists and media buttons -->
 225        <service
-225-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-22:19
+225-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-22:19
 226            android:name="com.doublesymmetry.trackplayer.service.MusicService"
-226-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-79
+226-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-79
 227            android:enabled="true"
-227-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-35
+227-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-35
 228            android:exported="false" >
-228-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+228-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
 229            <intent-filter>
-229-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+229-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
 230                <action android:name="android.intent.action.MEDIA_BUTTON" />
-230-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
-230-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
+230-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
+230-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
 231            </intent-filter>
 232        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
 233        <receiver
-233-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-31:20
+233-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-31:20
 234            android:name="androidx.media.session.MediaButtonReceiver"
-234-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-70
+234-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-70
 235            android:exported="true" >
-235-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+235-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
 236            <intent-filter>
-236-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+236-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
 237                <action android:name="android.intent.action.MEDIA_BUTTON" />
-237-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
-237-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
+237-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
+237-->[:react-native-track-player] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
 238            </intent-filter>
 239        </receiver>
 240
 241        <provider
-241-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+241-->[:rn-fetch-blob] /home/hb/Desktop/Projects/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
 242            android:name="com.RNFetchBlob.Utils.FileProvider"
-242-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+242-->[:rn-fetch-blob] /home/hb/Desktop/Projects/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
 243            android:authorities="com.demoapplication.provider"
-243-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+243-->[:rn-fetch-blob] /home/hb/Desktop/Projects/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
 244            android:exported="false"
-244-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+244-->[:rn-fetch-blob] /home/hb/Desktop/Projects/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
 245            android:grantUriPermissions="true" >
-245-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+245-->[:rn-fetch-blob] /home/hb/Desktop/Projects/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
 246            <meta-data
-246-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+246-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
 247                android:name="android.support.FILE_PROVIDER_PATHS"
-247-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+247-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
 248                android:resource="@xml/provider_paths" />
-248-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+248-->[:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
 249        </provider>
 250        <provider
 250-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
@@ -817,10 +817,10 @@
 409            android:permission="com.google.android.c2dm.permission.SEND" >
 409-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
 410            <intent-filter>
-410-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+410-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
 411                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-411-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
-411-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+411-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+411-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
 412            </intent-filter>
 413        </receiver>
 414        <!--
@@ -836,10 +836,10 @@
 421            android:exported="false" >
 421-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
 422            <intent-filter android:priority="-500" >
-422-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+422-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
 423                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-423-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
-423-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+423-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+423-->[:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
 424            </intent-filter>
 425        </service>
 426
