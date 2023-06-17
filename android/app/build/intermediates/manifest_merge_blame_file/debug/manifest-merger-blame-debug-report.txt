@@ -1,0 +1,906 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.demoapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:3:3-65
+12-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.ACCEPT_HANDOVER" />
+13-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:4:3-72
+13-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:4:20-69
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:5:3-83
+14-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:5:20-80
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:6:3-79
+15-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:6:20-76
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:7:3-77
+16-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:7:20-74
+17    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+17-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:8:3-78
+17-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:8:20-75
+18    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+18-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:9:3-77
+18-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:9:20-74
+19    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
+19-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:10:3-84
+19-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:10:20-81
+20    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+20-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:11:3-75
+20-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:11:20-72
+21    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+21-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:12:3-76
+21-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:12:20-73
+22    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+22-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:13:3-74
+22-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:13:20-71
+23    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+23-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:14:3-71
+23-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:14:20-68
+24    <uses-permission android:name="android.permission.BODY_SENSORS" />
+24-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:15:3-69
+24-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:15:20-66
+25    <uses-permission android:name="android.permission.BODY_SENSORS_BACKGROUND" />
+25-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:16:3-80
+25-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:16:20-77
+26    <uses-permission android:name="android.permission.CALL_PHONE" />
+26-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:17:3-67
+26-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:17:20-64
+27    <uses-permission android:name="android.permission.CAMERA" />
+27-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:18:3-63
+27-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:18:20-60
+28    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+28-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:19:3-69
+28-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:19:20-66
+29    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES" />
+29-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:20:3-76
+29-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:20:20-73
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:21:3-75
+30-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:21:20-72
+31    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+31-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:22:3-79
+31-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:22:20-76
+32    <uses-permission android:name="android.permission.READ_CALENDAR" />
+32-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:23:3-70
+32-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:23:20-67
+33    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+33-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:24:3-70
+33-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:24:20-67
+34    <uses-permission android:name="android.permission.READ_CONTACTS" />
+34-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:25:3-70
+34-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:25:20-67
+35    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+35-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:26:3-78
+35-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:26:20-75
+36    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+36-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:27:3-73
+36-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:27:20-70
+37    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+37-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:28:3-74
+37-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:28:20-71
+38    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+38-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:29:3-73
+38-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:29:20-70
+39    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+39-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:30:3-75
+39-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:30:20-72
+40    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+40-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:31:3-73
+40-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:31:20-70
+41    <uses-permission android:name="android.permission.READ_SMS" />
+41-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:32:3-65
+41-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:32:20-62
+42    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+42-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:33:3-68
+42-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:33:20-65
+43    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+43-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:34:3-68
+43-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:34:20-65
+44    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+44-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:35:3-73
+44-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:35:20-70
+45    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+45-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:36:3-69
+45-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:36:20-66
+46    <uses-permission android:name="android.permission.SEND_SMS" />
+46-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:37:3-65
+46-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:37:20-62
+47    <uses-permission android:name="android.permission.USE_SIP" />
+47-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:38:3-64
+47-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:38:20-61
+48    <uses-permission android:name="android.permission.UWB_RANGING" />
+48-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:39:3-68
+48-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:39:20-65
+49    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+49-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:40:3-71
+49-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:40:20-68
+50    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+50-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:41:3-71
+50-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:41:20-68
+51    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+51-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:42:3-71
+51-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:42:20-68
+52    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+52-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:43:3-79
+52-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:43:20-76
+53    <uses-permission android:name="android.permission.VIBRATE" />
+53-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:44:3-63
+53-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:44:20-61
+54    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+54-->[com.facebook.flipper:flipper:0.125.0] /home/hb/.gradle/caches/transforms-3/87e9e28f7203a27b2f2a5f52d412de1f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+54-->[com.facebook.flipper:flipper:0.125.0] /home/hb/.gradle/caches/transforms-3/87e9e28f7203a27b2f2a5f52d412de1f/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+55
+56    <uses-feature
+56-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+57        android:name="android.hardware.camera"
+57-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
+58        android:required="false" />
+58-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
+59    <uses-feature
+59-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+60        android:name="android.hardware.camera.autofocus"
+60-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
+61        android:required="false" />
+61-->[:react-native-camera] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
+62
+63    <uses-permission android:name="android.permission.WAKE_LOCK" />
+63-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+63-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+64    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to to download files without a notification -->
+64-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+64-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+65    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+65-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:5-88
+65-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:22-85
+66
+67    <queries>
+67-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+68        <intent>
+68-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+69            <action android:name="android.media.action.IMAGE_CAPTURE" />
+69-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+69-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+70        </intent>
+71
+72        <package android:name="androidx.test.orchestrator" />
+72-->[androidx.test:runner:1.4.0] /home/hb/.gradle/caches/transforms-3/41e33b78a48cda066572af74df52a4f9/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+72-->[androidx.test:runner:1.4.0] /home/hb/.gradle/caches/transforms-3/41e33b78a48cda066572af74df52a4f9/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+73        <package android:name="androidx.test.services" />
+73-->[androidx.test:runner:1.4.0] /home/hb/.gradle/caches/transforms-3/41e33b78a48cda066572af74df52a4f9/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+73-->[androidx.test:runner:1.4.0] /home/hb/.gradle/caches/transforms-3/41e33b78a48cda066572af74df52a4f9/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+74        <package android:name="com.google.android.apps.common.testing.services" /> <!-- Needs to be explicitly declared on Android R+ -->
+74-->[androidx.test:runner:1.4.0] /home/hb/.gradle/caches/transforms-3/41e33b78a48cda066572af74df52a4f9/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+74-->[androidx.test:runner:1.4.0] /home/hb/.gradle/caches/transforms-3/41e33b78a48cda066572af74df52a4f9/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+75        <package android:name="com.google.android.apps.maps" />
+75-->[com.google.android.gms:play-services-maps:18.0.2] /home/hb/.gradle/caches/transforms-3/e23e01d273cb9c4c5e7184dca9f2d7aa/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+75-->[com.google.android.gms:play-services-maps:18.0.2] /home/hb/.gradle/caches/transforms-3/e23e01d273cb9c4c5e7184dca9f2d7aa/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+76    </queries>
+77
+78    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- Required to access Google Play Licensing -->
+78-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-77
+78-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-74
+79    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+79-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+79-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+80    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+80-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+80-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+81
+82    <uses-feature
+82-->[com.google.android.gms:play-services-maps:18.0.2] /home/hb/.gradle/caches/transforms-3/e23e01d273cb9c4c5e7184dca9f2d7aa/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+83        android:glEsVersion="0x00020000"
+83-->[com.google.android.gms:play-services-maps:18.0.2] /home/hb/.gradle/caches/transforms-3/e23e01d273cb9c4c5e7184dca9f2d7aa/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+84        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+84-->[com.google.android.gms:play-services-maps:18.0.2] /home/hb/.gradle/caches/transforms-3/e23e01d273cb9c4c5e7184dca9f2d7aa/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+85    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+85-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+85-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+86
+87    <permission
+87-->[androidx.core:core:1.9.0] /home/hb/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+88        android:name="com.demoapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+88-->[androidx.core:core:1.9.0] /home/hb/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+89        android:protectionLevel="signature" />
+89-->[androidx.core:core:1.9.0] /home/hb/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+90
+91    <uses-permission android:name="com.demoapplication.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+91-->[androidx.core:core:1.9.0] /home/hb/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+91-->[androidx.core:core:1.9.0] /home/hb/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+92
+93    <application
+93-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:52:5-76:19
+94        android:name="com.demoapplication.MainApplication"
+94-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:53:7-38
+95        android:allowBackup="false"
+95-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:57:7-34
+96        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+96-->[androidx.core:core:1.9.0] /home/hb/.gradle/caches/transforms-3/64df287290b7924cd73574080127fc8e/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+97        android:debuggable="true"
+98        android:icon="@mipmap/ic_launcher"
+98-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:55:7-41
+99        android:label="@string/app_name"
+99-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:54:7-39
+100        android:roundIcon="@mipmap/ic_launcher_round"
+100-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:56:7-52
+101        android:supportsRtl="true"
+101-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:59:7-33
+102        android:testOnly="true"
+103        android:theme="@style/AppTheme"
+103-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:58:7-38
+104        android:usesCleartextTraffic="true" >
+104-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:8:9-44
+105        <activity
+105-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:9-111
+106            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+106-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:19-83
+107            android:exported="false" />
+107-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/debug/AndroidManifest.xml:11:84-108
+108        <activity
+108-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:60:7-72:18
+109            android:name="com.demoapplication.MainActivity"
+109-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:61:9-37
+110            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+110-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:63:9-118
+111            android:exported="true"
+111-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:66:9-32
+112            android:label="@string/app_name"
+112-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:62:9-41
+113            android:launchMode="singleTask"
+113-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:64:9-40
+114            android:windowSoftInputMode="adjustResize" >
+114-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:65:9-51
+115            <intent-filter>
+115-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:67:9-71:25
+116                <action android:name="android.intent.action.MAIN" />
+116-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:68:13-65
+116-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:68:21-62
+117
+118                <category android:name="android.intent.category.LAUNCHER" />
+118-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:69:13-73
+118-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:69:23-70
+119
+120                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+120-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:70:13-77
+120-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:70:21-75
+121            </intent-filter>
+122        </activity>
+123
+124        <meta-data
+124-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:73:7-75:63
+125            android:name="com.google.android.geo.API_KEY"
+125-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:74:6-51
+126            android:value="AIzaSyBVkJDc7qZ0BgHY_wcPUTTvKE1iOW_il5o" />
+126-->/home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/android/app/src/main/AndroidManifest.xml:75:6-61
+127
+128        <service
+128-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+129            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+129-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-103
+130            android:exported="false" />
+130-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+131        <service
+131-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-23:19
+132            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+132-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-95
+133            android:exported="false" >
+133-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+134            <intent-filter>
+134-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+135-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+136            </intent-filter>
+137        </service>
+138
+139        <receiver
+139-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-32:20
+140            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+140-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-96
+141            android:exported="true"
+141-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+142            android:permission="com.google.android.c2dm.permission.SEND" >
+142-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-73
+143            <intent-filter>
+143-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+144                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+144-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+144-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+145            </intent-filter>
+146        </receiver>
+147
+148        <meta-data
+148-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-36:36
+149            android:name="firebase_messaging_auto_init_enabled"
+149-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-64
+150            android:value="true" />
+150-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-33
+151        <meta-data
+151-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-39:32
+152            android:name="com.google.firebase.messaging.default_notification_channel_id"
+152-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-89
+153            android:value="" />
+153-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-29
+154        <meta-data
+154-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:9-42:47
+155            android:name="com.google.firebase.messaging.default_notification_color"
+155-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-84
+156            android:resource="@color/white" />
+156-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44
+157        <meta-data
+157-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-13:36
+158            android:name="app_data_collection_default_enabled"
+158-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-63
+159            android:value="true" />
+159-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-33
+160
+161        <service
+161-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-23:19
+162            android:name="com.google.firebase.components.ComponentDiscoveryService"
+162-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-84
+163            android:directBootAware="true"
+163-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-43
+164            android:exported="false" >
+164-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+165            <meta-data
+165-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:85
+166                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+166-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-120
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+169                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+169-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-datatransport:18.1.7] /home/hb/.gradle/caches/transforms-3/c9676e8f325b2415f453e306e7f15d29/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+172                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+172-->[com.google.firebase:firebase-datatransport:18.1.7] /home/hb/.gradle/caches/transforms-3/c9676e8f325b2415f453e306e7f15d29/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-datatransport:18.1.7] /home/hb/.gradle/caches/transforms-3/c9676e8f325b2415f453e306e7f15d29/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-installations:17.1.3] /home/hb/.gradle/caches/transforms-3/b41dbf52d981e399327a28678d215170/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+175                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+175-->[com.google.firebase:firebase-installations:17.1.3] /home/hb/.gradle/caches/transforms-3/b41dbf52d981e399327a28678d215170/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-installations:17.1.3] /home/hb/.gradle/caches/transforms-3/b41dbf52d981e399327a28678d215170/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+177        </service>
+178
+179        <provider
+179-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-29:38
+180            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+180-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-88
+181            android:authorities="com.demoapplication.reactnativefirebaseappinitprovider"
+181-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-86
+182            android:exported="false"
+182-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-37
+183            android:initOrder="99" />
+183-->[:react-native-firebase_app] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-35
+184        <provider
+184-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:9-45:20
+185            android:name="com.ReactNativeBlobUtil.Utils.FileProvider"
+185-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-70
+186            android:authorities="com.demoapplication.provider"
+186-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-60
+187            android:exported="false"
+187-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-37
+188            android:grantUriPermissions="true" >
+188-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-47
+189            <meta-data
+189-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+190                android:name="android.support.FILE_PROVIDER_PATHS"
+190-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+191                android:resource="@xml/provider_paths" />
+191-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+192        </provider>
+193        <provider
+193-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+194            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+194-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+195            android:authorities="com.demoapplication.provider"
+195-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+196            android:exported="false"
+196-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+197            android:grantUriPermissions="true" >
+197-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+198            <meta-data
+198-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+199                android:name="android.support.FILE_PROVIDER_PATHS"
+199-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+200                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+200-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+201        </provider>
+202
+203        <activity
+203-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+204            android:name="com.yalantis.ucrop.UCropActivity"
+204-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+205            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+205-->[:react-native-image-crop-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+206
+207        <provider
+207-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+208            android:name="com.imagepicker.ImagePickerProvider"
+208-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+209            android:authorities="com.demoapplication.imagepickerprovider"
+209-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+210            android:exported="false"
+210-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+211            android:grantUriPermissions="true" >
+211-->[:react-native-image-picker] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+212            <meta-data
+212-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+213                android:name="android.support.FILE_PROVIDER_PATHS"
+213-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+214                android:resource="@xml/imagepicker_provider_paths" />
+214-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+215        </provider>
+216        <provider
+216-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+217            android:name="cl.json.RNShareFileProvider"
+217-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-55
+218            android:authorities="com.demoapplication.rnshare.fileprovider"
+218-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-72
+219            android:exported="false"
+219-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+220            android:grantUriPermissions="true" >
+220-->[:react-native-share] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-share/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+221            <meta-data
+221-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+222                android:name="android.support.FILE_PROVIDER_PATHS"
+222-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+223                android:resource="@xml/share_download_paths" />
+223-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+224        </provider> <!-- The main service, handles playback, playlists and media buttons -->
+225        <service
+225-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-22:19
+226            android:name="com.doublesymmetry.trackplayer.service.MusicService"
+226-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-79
+227            android:enabled="true"
+227-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-35
+228            android:exported="false" >
+228-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+229            <intent-filter>
+229-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+230                <action android:name="android.intent.action.MEDIA_BUTTON" />
+230-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
+230-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
+231            </intent-filter>
+232        </service> <!-- A receiver that will receive media buttons. Required on pre-lollipop devices -->
+233        <receiver
+233-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-31:20
+234            android:name="androidx.media.session.MediaButtonReceiver"
+234-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-70
+235            android:exported="true" >
+235-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-36
+236            <intent-filter>
+236-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+237                <action android:name="android.intent.action.MEDIA_BUTTON" />
+237-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-77
+237-->[:react-native-track-player] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-track-player/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-74
+238            </intent-filter>
+239        </receiver>
+240
+241        <provider
+241-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+242            android:name="com.RNFetchBlob.Utils.FileProvider"
+242-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+243            android:authorities="com.demoapplication.provider"
+243-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+244            android:exported="false"
+244-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+245            android:grantUriPermissions="true" >
+245-->[:rn-fetch-blob] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+246            <meta-data
+246-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-44:58
+247                android:name="android.support.FILE_PROVIDER_PATHS"
+247-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:17-67
+248                android:resource="@xml/provider_paths" />
+248-->[:react-native-blob-util] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:17-55
+249        </provider>
+250        <provider
+250-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+251            android:name="androidx.startup.InitializationProvider"
+251-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+252            android:authorities="com.demoapplication.androidx-startup"
+252-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+253            android:exported="false" >
+253-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+254            <meta-data
+254-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+255                android:name="androidx.work.WorkManagerInitializer"
+255-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+256                android:value="androidx.startup" />
+256-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+257            <meta-data
+257-->[androidx.emoji2:emoji2:1.0.0] /home/hb/.gradle/caches/transforms-3/398da0935e55812eeaf3e3466d76c932/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+258                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+258-->[androidx.emoji2:emoji2:1.0.0] /home/hb/.gradle/caches/transforms-3/398da0935e55812eeaf3e3466d76c932/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+259                android:value="androidx.startup" />
+259-->[androidx.emoji2:emoji2:1.0.0] /home/hb/.gradle/caches/transforms-3/398da0935e55812eeaf3e3466d76c932/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+260            <meta-data
+260-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/hb/.gradle/caches/transforms-3/a8d825aa5c67a2e11cb49f3161e63776/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+261                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+261-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/hb/.gradle/caches/transforms-3/a8d825aa5c67a2e11cb49f3161e63776/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+262                android:value="androidx.startup" />
+262-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/hb/.gradle/caches/transforms-3/a8d825aa5c67a2e11cb49f3161e63776/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+263        </provider>
+264
+265        <service
+265-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+266            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+266-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+267            android:directBootAware="false"
+267-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+268            android:enabled="@bool/enable_system_alarm_service_default"
+268-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+269            android:exported="false" />
+269-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+270        <service
+270-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+271            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+271-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+272            android:directBootAware="false"
+272-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+273            android:enabled="@bool/enable_system_job_service_default"
+273-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+274            android:exported="true"
+274-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+275            android:permission="android.permission.BIND_JOB_SERVICE" />
+275-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+276        <service
+276-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+277            android:name="androidx.work.impl.foreground.SystemForegroundService"
+277-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+278            android:directBootAware="false"
+278-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+279            android:enabled="@bool/enable_system_foreground_service_default"
+279-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+280            android:exported="false" />
+280-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+281
+282        <receiver
+282-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+283            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+283-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+284            android:directBootAware="false"
+284-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+285            android:enabled="true"
+285-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+286            android:exported="false" />
+286-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+287        <receiver
+287-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+288            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+288-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+289            android:directBootAware="false"
+289-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+290            android:enabled="false"
+290-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+291            android:exported="false" >
+291-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+292            <intent-filter>
+292-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+293                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+293-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+293-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+294                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+294-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+294-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+295            </intent-filter>
+296        </receiver>
+297        <receiver
+297-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+298            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+298-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+299            android:directBootAware="false"
+299-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+300            android:enabled="false"
+300-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+301            android:exported="false" >
+301-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+302            <intent-filter>
+302-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+303                <action android:name="android.intent.action.BATTERY_OKAY" />
+303-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+303-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+304                <action android:name="android.intent.action.BATTERY_LOW" />
+304-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+304-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+305            </intent-filter>
+306        </receiver>
+307        <receiver
+307-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+308            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+308-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+309            android:directBootAware="false"
+309-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+310            android:enabled="false"
+310-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+311            android:exported="false" >
+311-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+312            <intent-filter>
+312-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+313                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+313-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+313-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+314                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+314-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+314-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+315            </intent-filter>
+316        </receiver>
+317        <receiver
+317-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+318            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+318-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+319            android:directBootAware="false"
+319-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+320            android:enabled="false"
+320-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+321            android:exported="false" >
+321-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+322            <intent-filter>
+322-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+323                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+323-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+323-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+324            </intent-filter>
+325        </receiver>
+326        <receiver
+326-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+327            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+327-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+328            android:directBootAware="false"
+328-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+329            android:enabled="false"
+329-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+330            android:exported="false" >
+330-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+331            <intent-filter>
+331-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+332                <action android:name="android.intent.action.BOOT_COMPLETED" />
+332-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+332-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+333                <action android:name="android.intent.action.TIME_SET" />
+333-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+333-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+334                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+334-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+334-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+335            </intent-filter>
+336        </receiver>
+337        <receiver
+337-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+338            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+338-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+339            android:directBootAware="false"
+339-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+340            android:enabled="@bool/enable_system_alarm_service_default"
+340-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+341            android:exported="false" >
+341-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+342            <intent-filter>
+342-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+343                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+343-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+343-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+344            </intent-filter>
+345        </receiver>
+346        <receiver
+346-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+347            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+347-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+348            android:directBootAware="false"
+348-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+349            android:enabled="true"
+349-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+350            android:exported="true"
+350-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+351            android:permission="android.permission.DUMP" >
+351-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+352            <intent-filter>
+352-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+353                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+353-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+353-->[androidx.work:work-runtime:2.7.1] /home/hb/.gradle/caches/transforms-3/c008e2ac2f067b28e8f169d4b3a1b6e0/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+354            </intent-filter>
+355        </receiver>
+356
+357        <service
+357-->[androidx.room:room-runtime:2.2.5] /home/hb/.gradle/caches/transforms-3/6b09305e8560bd74ce6a879785b00eae/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+358            android:name="androidx.room.MultiInstanceInvalidationService"
+358-->[androidx.room:room-runtime:2.2.5] /home/hb/.gradle/caches/transforms-3/6b09305e8560bd74ce6a879785b00eae/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+359            android:directBootAware="true"
+359-->[androidx.room:room-runtime:2.2.5] /home/hb/.gradle/caches/transforms-3/6b09305e8560bd74ce6a879785b00eae/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+360            android:exported="false" />
+360-->[androidx.room:room-runtime:2.2.5] /home/hb/.gradle/caches/transforms-3/6b09305e8560bd74ce6a879785b00eae/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+361        <service
+361-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/hb/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:9:9-15:19
+362            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+362-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/hb/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:10:13-91
+363            android:directBootAware="true"
+363-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:17:13-43
+364            android:exported="false" >
+364-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/hb/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:11:13-37
+365            <meta-data
+365-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/hb/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:12:13-14:85
+366                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+366-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/hb/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:13:17-120
+367                android:value="com.google.firebase.components.ComponentRegistrar" />
+367-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] /home/hb/.gradle/caches/transforms-3/ff0d0bdaa84c8644979a853db6e8ed74/transformed/jetified-play-services-mlkit-barcode-scanning-16.2.0/AndroidManifest.xml:14:17-82
+368            <meta-data
+368-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/hb/.gradle/caches/transforms-3/1668b50f2516e72725992fd92884d2ae/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:12:13-14:85
+369                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+369-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/hb/.gradle/caches/transforms-3/1668b50f2516e72725992fd92884d2ae/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:13:17-114
+370                android:value="com.google.firebase.components.ComponentRegistrar" />
+370-->[com.google.android.gms:play-services-mlkit-face-detection:16.2.0] /home/hb/.gradle/caches/transforms-3/1668b50f2516e72725992fd92884d2ae/transformed/jetified-play-services-mlkit-face-detection-16.2.0/AndroidManifest.xml:14:17-82
+371            <meta-data
+371-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/hb/.gradle/caches/transforms-3/460bc514557e48da254243d4a20f337f/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:12:13-14:85
+372                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+372-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/hb/.gradle/caches/transforms-3/460bc514557e48da254243d4a20f337f/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:13:17-114
+373                android:value="com.google.firebase.components.ComponentRegistrar" />
+373-->[com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] /home/hb/.gradle/caches/transforms-3/460bc514557e48da254243d4a20f337f/transformed/jetified-play-services-mlkit-text-recognition-16.3.0/AndroidManifest.xml:14:17-82
+374            <meta-data
+374-->[com.google.mlkit:vision-common:16.5.0] /home/hb/.gradle/caches/transforms-3/62e8aa1d313f57cc4c18db864e40af1b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:12:13-14:85
+375                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+375-->[com.google.mlkit:vision-common:16.5.0] /home/hb/.gradle/caches/transforms-3/62e8aa1d313f57cc4c18db864e40af1b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:13:17-124
+376                android:value="com.google.firebase.components.ComponentRegistrar" />
+376-->[com.google.mlkit:vision-common:16.5.0] /home/hb/.gradle/caches/transforms-3/62e8aa1d313f57cc4c18db864e40af1b/transformed/jetified-vision-common-16.5.0/AndroidManifest.xml:14:17-82
+377            <meta-data
+377-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:20:13-22:85
+378                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+378-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:21:17-120
+379                android:value="com.google.firebase.components.ComponentRegistrar" />
+379-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:22:17-82
+380        </service>
+381
+382        <activity
+382-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+383            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+383-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+384            android:excludeFromRecents="true"
+384-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+385            android:exported="false"
+385-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+386            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+386-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+387        <!--
+388            Service handling Google Sign-In user revocation. For apps that do not integrate with
+389            Google Sign-In, this service will never be started.
+390        -->
+391        <service
+391-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+392            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+392-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+393            android:exported="true"
+393-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+394            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+394-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+395            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+395-->[com.google.android.gms:play-services-auth:20.5.0] /home/hb/.gradle/caches/transforms-3/04fd88953232c04fa724ee01f82c25d1/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+396        <uses-library
+396-->[com.google.android.gms:play-services-maps:18.0.2] /home/hb/.gradle/caches/transforms-3/e23e01d273cb9c4c5e7184dca9f2d7aa/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+397            android:name="org.apache.http.legacy"
+397-->[com.google.android.gms:play-services-maps:18.0.2] /home/hb/.gradle/caches/transforms-3/e23e01d273cb9c4c5e7184dca9f2d7aa/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+398            android:required="false" />
+398-->[com.google.android.gms:play-services-maps:18.0.2] /home/hb/.gradle/caches/transforms-3/e23e01d273cb9c4c5e7184dca9f2d7aa/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+399
+400        <provider
+400-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:9:9-13:38
+401            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+401-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:10:13-78
+402            android:authorities="com.demoapplication.mlkitinitprovider"
+402-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:11:13-69
+403            android:exported="false"
+403-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:12:13-37
+404            android:initOrder="99" />
+404-->[com.google.mlkit:common:17.2.0] /home/hb/.gradle/caches/transforms-3/67f612a7f5974803664e95423bc352ba/transformed/jetified-common-17.2.0/AndroidManifest.xml:13:13-35
+405
+406        <receiver
+406-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+407            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+407-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+408            android:exported="true"
+408-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+409            android:permission="com.google.android.c2dm.permission.SEND" >
+409-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+410            <intent-filter>
+410-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
+411                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+411-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-81
+411-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:25-78
+412            </intent-filter>
+413        </receiver>
+414        <!--
+415             FirebaseMessagingService performs security checks at runtime,
+416             but set to not exported to explicitly avoid allowing another app to call it.
+417        -->
+418        <service
+418-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+419            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+419-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+420            android:directBootAware="true"
+420-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+421            android:exported="false" >
+421-->[com.google.firebase:firebase-messaging:23.1.2] /home/hb/.gradle/caches/transforms-3/19955e10a2c16bace573161f50883e71/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+422            <intent-filter android:priority="-500" >
+422-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-22:29
+423                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+423-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-78
+423-->[:react-native-firebase_messaging] /home/hb/Desktop/Nirala Kumar/React Native/DemoApplication/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-75
+424            </intent-filter>
+425        </service>
+426
+427        <activity
+427-->[com.google.android.gms:play-services-base:18.1.0] /home/hb/.gradle/caches/transforms-3/aed3246ffafb40bb86a6fb759a6daf5f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+428            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+428-->[com.google.android.gms:play-services-base:18.1.0] /home/hb/.gradle/caches/transforms-3/aed3246ffafb40bb86a6fb759a6daf5f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+429            android:exported="false"
+429-->[com.google.android.gms:play-services-base:18.1.0] /home/hb/.gradle/caches/transforms-3/aed3246ffafb40bb86a6fb759a6daf5f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+430            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+430-->[com.google.android.gms:play-services-base:18.1.0] /home/hb/.gradle/caches/transforms-3/aed3246ffafb40bb86a6fb759a6daf5f/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+431
+432        <provider
+432-->[com.google.firebase:firebase-common:20.3.2] /home/hb/.gradle/caches/transforms-3/43779fb611837b6ea8edb90ce57207bb/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+433            android:name="com.google.firebase.provider.FirebaseInitProvider"
+433-->[com.google.firebase:firebase-common:20.3.2] /home/hb/.gradle/caches/transforms-3/43779fb611837b6ea8edb90ce57207bb/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+434            android:authorities="com.demoapplication.firebaseinitprovider"
+434-->[com.google.firebase:firebase-common:20.3.2] /home/hb/.gradle/caches/transforms-3/43779fb611837b6ea8edb90ce57207bb/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+435            android:directBootAware="true"
+435-->[com.google.firebase:firebase-common:20.3.2] /home/hb/.gradle/caches/transforms-3/43779fb611837b6ea8edb90ce57207bb/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+436            android:exported="false"
+436-->[com.google.firebase:firebase-common:20.3.2] /home/hb/.gradle/caches/transforms-3/43779fb611837b6ea8edb90ce57207bb/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+437            android:initOrder="100" />
+437-->[com.google.firebase:firebase-common:20.3.2] /home/hb/.gradle/caches/transforms-3/43779fb611837b6ea8edb90ce57207bb/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+438
+439        <meta-data
+439-->[com.google.android.gms:play-services-basement:18.2.0] /home/hb/.gradle/caches/transforms-3/41132ab25bd297e8b51542061f941bf1/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+440            android:name="com.google.android.gms.version"
+440-->[com.google.android.gms:play-services-basement:18.2.0] /home/hb/.gradle/caches/transforms-3/41132ab25bd297e8b51542061f941bf1/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+441            android:value="@integer/google_play_services_version" />
+441-->[com.google.android.gms:play-services-basement:18.2.0] /home/hb/.gradle/caches/transforms-3/41132ab25bd297e8b51542061f941bf1/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+442
+443        <service
+443-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/hb/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+444            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+444-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/hb/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+445            android:exported="false" >
+445-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/hb/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+446            <meta-data
+446-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/hb/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+447                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+447-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/hb/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+448                android:value="cct" />
+448-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/hb/.gradle/caches/transforms-3/44710bdbb312dec763d737e2838ad49f/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+449        </service>
+450        <service
+450-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/hb/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+451            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+451-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/hb/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+452            android:exported="false"
+452-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/hb/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+453            android:permission="android.permission.BIND_JOB_SERVICE" >
+453-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/hb/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+454        </service>
+455
+456        <receiver
+456-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/hb/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+457            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+457-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/hb/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+458            android:exported="false" />
+458-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/hb/.gradle/caches/transforms-3/f78ca01de8f95791362c8b0e921a1865/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+459    </application>
+460
+461</manifest>
