@@ -1,50 +1,73 @@
-import { View, Text, StyleSheet, Dimensions } from 'react-native'
-import React, { useState } from 'react'
+import { View, Text, StyleSheet, Dimensions, Share } from 'react-native'
+import React, { useEffect, useState } from 'react'
 import Pdf from 'react-native-pdf';
 import { Button, Modal, PaperProvider, Portal } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/AntDesign'
+import RNFetchBlob from 'rn-fetch-blob'
+import AsyncStore from '../../../lib/AsyncStore';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { PermissionsAndroid, Platform } from 'react-native';
 
 const deviceWidth = Dimensions.get('window').width;
 const deviceHeight = Dimensions.get('window').height;
 
 const PdfFile = () => {
     const [visible, setVisible] = useState(false)
+    const [file, setFile] = useState('')
 
-    const downloadPDF = () => {
-        console.log("downloadPDF");
-        const source = "https://www.africau.edu/images/default/sample.pdf";
-        let dirs = ReactNativeBlobUtil.fs.dirs;
-        ReactNativeBlobUtil.config({
-            fileCache: true,
-            appendExt: 'pdf',
-            path: `${dirs.DocumentDir}/${fileName}`,
-            addAndroidDownloads: {
-                useDownloadManager: true,
-                notification: true,
-                title: fileName,
-                description: 'File downloaded by download manager.',
-                mime: 'application/pdf',
-            },
-        })
-            .fetch('GET', fileUrl)
-            .then((res) => {
-                // in iOS, we want to save our files by opening up the saveToFiles bottom sheet action.
-                // whereas in android, the download manager is handling the download for us.
-                if (Platform.OS === 'ios') {
-                    const filePath = res.path();
-                    let options = {
-                        type: 'application/pdf',
-                        url: filePath,
-                        saveToFiles: true,
-                    };
-                    Share.open(options)
-                        .then((resp) => console.log(resp))
-                        .catch((err) => console.log(err));
-                }
-            })
-            .catch((err) => console.log('BLOB ERROR -> ', err));
+    const requestStoragePermission = async () => {
+        if (Platform.OS === 'android') {
+            try {
+                const granted = await PermissionsAndroid.request(
+                    PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE,
+                    {
+                        title: 'Storage Permission',
+                        message: 'App needs access to storage to download the PDF.',
+                    }
+                );
+                return granted === PermissionsAndroid.RESULTS.GRANTED;
+            } catch (err) {
+                console.warn(err);
+                return false;
+            }
+        } else {
+            return true;
+        }
+    };
 
-    }
+    const downloadPdf = async () => {
+        const isStoragePermissionGranted = await requestStoragePermission();
+        if (isStoragePermissionGranted) {
+            const { config, fs } = RNFetchBlob;
+            const dirs = RNFetchBlob.fs.dirs;
+            const { DocumentDir } = fs;
+            const fileUrl = 'https://icseindia.org/document/sample.pdf'; // Replace with your actual PDF URL
+            console.log("dirs.DownloadDir + `${options}", dirs.DownloadDir);
+            const options = {
+                fileCache: true,
+                addAndroidDownloads: {
+                    title: "Demo",
+                    useDownloadManager: true,
+                    notification: true,
+                    path: dirs.DownloadDir + `${options}`, // Replace with your desired file path and name
+                    description: 'Downloading PDF file.',
+                },
+            };
+
+            config(options)
+                .fetch('GET', fileUrl)
+                .then((res) => {
+                    // File downloaded successfully
+                    console.log('File downloaded:', res.path());
+                })
+                .catch((error) => {
+                    // Error occurred while downloading the file
+                    console.error('Error downloading file:', error);
+                });
+        } else {
+            console.log('Storage permission denied.');
+        }
+    };
 
     return (
         <PaperProvider>
@@ -53,7 +76,7 @@ const PdfFile = () => {
                     contentContainerStyle={styles.containerStyle}>
                     <View style={styles.pdfViewStyle}>
                         <View style={styles.iconViewStyle}>
-                            <Icon name="download" size={30} style={styles.iconStyle} onPress={() => { downloadPDF() }} />
+                            <Icon name="download" size={30} style={styles.iconStyle} onPress={() => { downloadPdf() }} />
                             <Icon name="closecircleo" size={30} style={styles.iconStyle} onPress={() => { setVisible(false) }} />
                         </View>
                         <Text style={styles.textStyle}>pdfFile</Text>
@@ -88,7 +111,6 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         backgroundColor: '#8ab4f8'
-
     },
     iconStyle: {
         alignSelf: 'flex-end',
