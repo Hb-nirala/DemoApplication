@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import Pdf from 'react-native-pdf';
 import { Button, Modal, PaperProvider, Portal } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/AntDesign'
+import Iconone from 'react-native-vector-icons/Entypo'
 import RNFetchBlob from 'rn-fetch-blob'
 import AsyncStore from '../../../lib/AsyncStore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -49,7 +50,7 @@ const PdfFile = () => {
                     title: "Demo",
                     useDownloadManager: true,
                     notification: true,
-                    path: dirs.DownloadDir + `${options}`, // Replace with your desired file path and name
+                    path: dirs.DownloadDir + `${options}` + '.pdf', // Replace with your desired file path and name
                     description: 'Downloading PDF file.',
                 },
             };
@@ -69,6 +70,10 @@ const PdfFile = () => {
         }
     };
 
+    const sharePdf = () => {
+        console.log("Share pdf");
+    }
+
     return (
         <PaperProvider>
             <Portal>
@@ -77,6 +82,7 @@ const PdfFile = () => {
                     <View style={styles.pdfViewStyle}>
                         <View style={styles.iconViewStyle}>
                             <Icon name="download" size={30} style={styles.iconStyle} onPress={() => { downloadPdf() }} />
+                            <Iconone name="forward" size={30} style={styles.iconStyle} onPress={() => { sharePdf() }} />
                             <Icon name="closecircleo" size={30} style={styles.iconStyle} onPress={() => { setVisible(false) }} />
                         </View>
                         <Text style={styles.textStyle}>pdfFile</Text>

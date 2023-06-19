@@ -9,6 +9,9 @@ const User = (props) => {
             <Button style={{ marginTop: 30 }} onPress={() => { props.navigation.navigate('PDF') }}>
                 PDF
             </Button>
+            <Button style={{ marginTop: 30 }} onPress={() => { props.navigation.navigate('Map') }}>
+               Map Screen
+            </Button>
         </View>
     )
 }

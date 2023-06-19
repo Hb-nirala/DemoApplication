@@ -3,68 +3,68 @@ import { StyleSheet } from "react-native";
 import { View, Text } from 'react-native';
 import MapView, { Callout, Marker, Polyline } from 'react-native-maps';
 import Geolocation from '@react-native-community/geolocation';
-import { decode } from "@mapbox/polyline";
+
 
 const Map = () => {
 
-    const [position, setPosition] = useState({
-        latitude: 0,
-        longitude: 0,
-        latitudeDelta: 0.001,
-        longitudeDelta: 0.001,
-    });
+    // const [position, setPosition] = useState({
+    //     latitude: 23.018261849822835,
+    //     longitude: 72.51711370423436,
+    //     latitudeDelta: 0.001,
+    //     longitudeDelta: 0.001,
+    // });
 
-    const [pin, setPin] = useState({
-        latitude: 0,
-        longitude: 0
-    })
+    // const [pin, setPin] = useState({
+    //     latitude: 0,
+    //     longitude: 0
+    // })
 
-    const [coords, setCoords] = useState([]);
+    // const [coords, setCoords] = useState([]);
 
-    const getDirections = async (startLoc, destinationLoc) => {
-        try {
-            const KEY = "AIzaSyBVkJDc7qZ0BgHY_wcPUTTvKE1iOW_il5o"; //put your API key here.
-            //otherwise, you'll have an 'unauthorized' error.
-            let resp = await fetch(
-                `https://maps.googleapis.com/maps/api/directions/json?origin=${startLoc}&destination=${destinationLoc}&key=${KEY}`
-            );
-            let respJson = await resp.json();
-            let points = decode(respJson.routes[0].overview_polyline.points);
-            console.log(points);
-            let coords = points.map((point, index) => {
-                return {
-                    latitude: point[0],
-                    longitude: point[1]
-                };
-            });
-            return coords;
-        } catch (error) {
-            return error;
-        }
-    };
+    // const getDirections = async (startLoc, destinationLoc) => {
+    //     try {
+    //         const KEY = "AIzaSyBVkJDc7qZ0BgHY_wcPUTTvKE1iOW_il5o"; //put your API key here.
+    //         //otherwise, you'll have an 'unauthorized' error.
+    //         let resp = await fetch(
+    //             `https://maps.googleapis.com/maps/api/directions/json?origin=${startLoc}&destination=${destinationLoc}&key=${KEY}`
+    //         );
+    //         let respJson = await resp.json();
+    //         let points = decode(respJson.routes[0].overview_polyline.points);
+    //         console.log(points);
+    //         let coords = points.map((point, index) => {
+    //             return {
+    //                 latitude: point[0],
+    //                 longitude: point[1]
+    //             };
+    //         });
+    //         return coords;
+    //     } catch (error) {
+    //         return error;
+    //     }
+    // };
 
-    useEffect(() => {
-        Geolocation.getCurrentPosition((position) => {
-            let lat = parseFloat(position.coords.latitude)
-            let long = parseFloat(position.coords.longitude)
-            console.log("lat===", lat, "long====", long);
-            var currentPosition = {
-                latitude: lat,
-                longitude: long,
-                latitudeDelta: 0.1,
-                longitudeDelta: 0.1,
-            }
-            setPosition(currentPosition)
-        })
-    }, [])
+    // useEffect(() => {
+    //     Geolocation.getCurrentPosition((position) => {
+    //         let lat = parseFloat(position.coords.latitude)
+    //         let long = parseFloat(position.coords.longitude)
+    //         console.log("lat===", lat, "long====", long);
+    //         var currentPosition = {
+    //             latitude: lat,
+    //             longitude: long,
+    //             latitudeDelta: 0.1,
+    //             longitudeDelta: 0.1,
+    //         }
+    //         setPosition(currentPosition)
+    //     })
+    // }, [])
 
 
-    useEffect(() => {
-        //fetch the coordinates and then store its value into the coords Hook.
-        getDirections("23.018261849822835,72.51711370423436", "25.51711370423436,75.51711370423436")
-            .then(coords => console.log("coords", coords))
-            .catch(err => console.log("Something went wrong"));
-    }, []);
+    // useEffect(() => {
+    //     //fetch the coordinates and then store its value into the coords Hook.
+    //     getDirections("23.018261849822835,72.51711370423436", "25.51711370423436,75.51711370423436")
+    //         .then(coords => console.log("coords", coords))
+    //         .catch(err => console.log("Something went wrong"));
+    // }, []);
 
 
     //Searching function -----
@@ -145,20 +145,26 @@ const Map = () => {
                     scrollEnabled={true}
                     zoomEnabled={true}
                     zoomControlEnabled={true}
-                    initialRegion={position}
+                    initialRegion={{
+                        latitude:23.018261849822835,
+                        longitude:72.51711370423436,
+                        latitudeDelta:0.001,
+                        longitudeDelta:0.001
+                    }}
                     pitchEnabled={true}
                     rotateEnabled={true}
                     onRegionChange={(current) => { console.log("current==", current) }}
                     provider="google"
                 >
 
-                    {coords.length > 0 && <Polyline coordinates={coords} />}
-                    <Marker
-                        coordinate={position}
+                    {/* {coords.length > 0 && <Polyline coordinates={coords} />} */}
+                    {/* <Marker
+                        coordinate={{latitude: 23.018261849822835, longitude: 72.51711370423436}}
                         title={"HB"}
                         description={"Hidden Brains"}
-                    />
-                    <Marker
+                    /> */}
+                    </MapView>
+                    {/* <Marker
                         coordinate={pin}
                         pinColor="black"
                         draggable={true}
@@ -175,8 +181,7 @@ const Map = () => {
                         <Callout>
                             <Text>I'm here</Text>
                         </Callout>
-                    </Marker>
-                </MapView>
+                    </Marker> */}
             </View>
         </View>
     )
@@ -184,15 +189,17 @@ const Map = () => {
 
 const styles = StyleSheet.create({
     MainContainer: {
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        alignItems: 'center',
-        justifyContent: 'flex-end',
+        flex:1,
+    //     position: 'absolute',
+    //     top: 0,
+    //     left: 0,
+    //     right: 0,
+    //     bottom: 0,
+    //     alignItems: 'center',
+    //     justifyContent: 'flex-end',
     },
     mapStyle: {
+        // flex:1,
         position: 'absolute',
         top: 0,
         left: 0,
