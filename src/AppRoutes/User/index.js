@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator();
 const UserNavigator = () => {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="User" component={User} options={{ headerShown: false }} />
+            
             <Stack.Screen name="PDF" component={PDF} options={{ headerShown: false }} />
             <Stack.Screen name="Map" component={MapScreen} options={{ headerShown: false }} />
         </Stack.Navigator>
