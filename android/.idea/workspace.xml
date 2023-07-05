@@ -10,21 +10,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dc82449-edcf-47e4-9538-b61665379de2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../API Task/API Library/PostData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API Task/AddData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API Task/ShowData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API Task/StackNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthNavigator/AuthNavigatorMaterialBottomTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AuthNavigator/HomeNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContextUse/componentA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContextUse/componentB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContextUse/mainComponet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImagePicker/AppPermission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImagePicker/OpenCamera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImagePicker/OpenGallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LocalStorage/LocalStroge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LocalStorage/Navigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LocalStorage/Profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModalScreen/ModalScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModalScreen/ModalScreenClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModalScreen/PressableScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ModalScreen/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Navigator/AuthNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Navigator/AuthNavigatorDrawer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Navigator/AuthNavigatorTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Navigator/AuthNavigatorTopTab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/AboutScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/CompletedWorkScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/GlobalConstant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/HomeScreenClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/InProgressWorkScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/LogOutScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/LoginScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/LoginandSignUpScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/MyWorkScreenClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/ProfileScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/SignUpScreenClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/StoresScreenClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyApplication/Screens/VideoScreenClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/AppBarClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/AvtarClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/BannerClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/BottomNavigationClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/CardComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/ChipClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/DataTableClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/DrawerNavigationClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/FABClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/HomeClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/ListClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/LoginClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/MenuClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/ProgressBarClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/RadioButtonClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/RadioButtonComonent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/SegmentedButton.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/SignUpClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/SnackBarClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperClone/SurfaceClone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperTask/ChipComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperTask/ChipStarComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperTask/FilterScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PaperTask/RatingsComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhonePayClone/HistoryScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhonePayClone/HomeScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhonePayClone/LoginScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhonePayClone/Navigator/BottomNavigator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhonePayClone/WealthScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/AddContactScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/Arraysum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/Assendingorder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/CallingScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/ContactsScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/CreateProfileScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/Descendingorder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/Duplicateelements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/GlobalFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/HomeDetails.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/HomeScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/HorizontalScrollComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/SettingsScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/ToDoListScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/ToDoTaskDetailsScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen/globalConstant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SliderComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextinputCheck/Textcomponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextinputCheck/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TouchableCheck/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TouchableCheck/touchablecomponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VideoPlayerTask/VideoPlayer.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeLibDexDebug/11/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/AsyncStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/AsyncStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/facebook/react/PackageList.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/facebook/react/PackageList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/facebook/react/PackageList.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/facebook/react/PackageList.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/e5fab408af703b1e1ab2964f995d47b8fa02d676cde827cfeff30d9a262a04a3_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/e5fab408af703b1e1ab2964f995d47b8fa02d676cde827cfeff30d9a262a04a3_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/e5fab408af703b1e1ab2964f995d47b8fa02d676cde827cfeff30d9a262a04a3_2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/e5fab408af703b1e1ab2964f995d47b8fa02d676cde827cfeff30d9a262a04a3_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/e5fab408af703b1e1ab2964f995d47b8fa02d676cde827cfeff30d9a262a04a3_4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/e5fab408af703b1e1ab2964f995d47b8fa02d676cde827cfeff30d9a262a04a3_5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/AsyncStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/GlobalConstant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/GlobalFile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locales/ar.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locales/en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../locales/fr.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/AppRoutes/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/AppRoutes/User/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/AppRoutes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/AppRoutes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Context/AppContext/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Context/AppContext/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/PdfFile/pdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/PdfFile/pdf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/screens/Login/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screens/Login/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../src/screens/User/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/screens/User/user.js" afterDir="false" />
     </list>
@@ -68,21 +182,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "last_opened_file_path": "/home/hb/Desktop/Projects/DemoApplication/android",
-    "memory.settings.postsync.last.time.stamp": "1687443417727",
-    "project.structure.last.edited": "SDK Location",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "experimental"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/hb/Desktop/Projects/DemoApplication/android&quot;,
+    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1688546752050&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDK Location&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;experimental&quot;
   }
-}]]></component>
+}</component>
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Properties" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />

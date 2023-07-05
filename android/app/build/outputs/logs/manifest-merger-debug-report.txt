@@ -17,6 +17,7 @@ MERGED from [:react-native-firebase_messaging] /home/hb/Desktop/Projects/DemoApp
 MERGED from [:react-native-firebase_app] /home/hb/Desktop/Projects/DemoApplication/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-32:12
 MERGED from [:lottie-react-native] /home/hb/Desktop/Projects/DemoApplication/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-48:12
+MERGED from [:react-native-document-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-33:12
 MERGED from [:react-native-image-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
@@ -567,6 +568,8 @@ MERGED from [:lottie-react-native] /home/hb/Desktop/Projects/DemoApplication/nod
 MERGED from [:lottie-react-native] /home/hb/Desktop/Projects/DemoApplication/node_modules/lottie-react-native/src/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-blob-util] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-blob-util/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-document-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-document-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-image-crop-picker] /home/hb/Desktop/Projects/DemoApplication/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
