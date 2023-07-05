@@ -1,13 +1,14 @@
 import React, { createContext, useMemo, useState } from 'react'
 import * as yup from 'yup'
-import AsyncStore from '../../../lib/AsyncStore';
+import AsyncStore from '../../lib/AsyncStore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const AppContext = createContext({});
 
 export const AppContextProvider = ({ children }) => {
     const [loginData, setLoginData] = useState({})
-    const [localLoginData,setLocalLoginData]=useState({})
+    const [localLoginData, setLocalLoginData] = useState({})
+    const [checkboxStatus,setCheckBoxStatus]=useState('unchecked')
 
     const appBarClick = () => {
         console.log("appBarClick======");
@@ -17,12 +18,25 @@ export const AppContextProvider = ({ children }) => {
         // console.log("values==", typeof JSON.stringify(values));
         setLoginData(values)
         storeLoginData(values)
-        props.navigation.navigate('User', { values })
+        props.navigation.navigate('UserNavigator', { values })
     }
 
     const storeLoginData = async (values) => {
-        await AsyncStorage.setItem('loginData', JSON.stringify(values))
+        if (checkboxStatus === 'checked') {
+            await AsyncStorage.setItem(AsyncStore.react_native, 'checked')
+            await AsyncStorage.setItem('loginData', JSON.stringify(values))
+        }
+        else {
+            await AsyncStorage.setItem(AsyncStore.react_native, 'unchecked')
+            // console.log('Hii');
+        }
         // console.log("========", await AsyncStorage.setItem('loginData', JSON.stringify(values)));
+    }
+
+    const onLogoutClick = async (props) => {
+        setLoginData('')
+        await AsyncStorage.removeItem('loginData')
+        props.navigation.navigate('Login')
     }
 
     // var regex = /\d/;
@@ -72,13 +86,15 @@ export const AppContextProvider = ({ children }) => {
 
         //State
         loginData, setLoginData,
-        localLoginData,setLocalLoginData,
+        localLoginData, setLocalLoginData,
+        checkboxStatus,setCheckBoxStatus,
 
         //variable
 
         //function
         appBarClick,
-        onLoginClick
+        onLoginClick,
+        onLogoutClick
     }),
         [
             //Schema
@@ -86,13 +102,15 @@ export const AppContextProvider = ({ children }) => {
 
             //State
             loginData, setLoginData,
-            localLoginData,setLocalLoginData,
+            localLoginData, setLocalLoginData,
+            checkboxStatus,setCheckBoxStatus,
 
             //variable
 
             //function
             appBarClick,
-            onLoginClick
+            onLoginClick,
+            onLogoutClick
         ])
 
     return (

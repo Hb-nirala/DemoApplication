@@ -29,6 +29,8 @@ import com.airbnb.android.react.lottie.LottiePackage;
 import com.ReactNativeBlobUtil.ReactNativeBlobUtilPackage;
 // react-native-camera
 import org.reactnative.camera.RNCameraPackage;
+// react-native-document-picker
+import com.reactnativedocumentpicker.RNDocumentPickerPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-image-crop-picker
@@ -121,6 +123,7 @@ public class PackageList {
       new LottiePackage(),
       new ReactNativeBlobUtilPackage(),
       new RNCameraPackage(),
+      new RNDocumentPickerPackage(),
       new RNGestureHandlerPackage(),
       new PickerPackage(),
       new ImagePickerPackage(),
