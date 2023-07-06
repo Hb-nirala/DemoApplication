@@ -1,12 +1,16 @@
 import { View, Text } from 'react-native'
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { Button, Checkbox, TextInput } from 'react-native-paper'
 import { Formik } from 'formik'
 import AppContext from '../../Context/AppContext'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import AsyncStore from '../../lib/AsyncStore'
+import DropDownList from '../../components/DropDownList'
+import FontRegularText from '../../components/core/FontRegularText'
+import CustomTextInput from '../../components/core/CustomTextInput'
 
 const Login = (props) => {
+
     const { loginValidationSchema,
         checkboxStatus,
         onLoginClick,
@@ -33,13 +37,12 @@ const Login = (props) => {
             console.log("Stay login");
         }
     }
-
+    // {onLoginClick(values, props)}
     return (
         <View>
-            <Text>Login</Text>
             <Formik
-                initialValues={{ email: '', password: '' }}
-                onSubmit={values => { onLoginClick(values, props) }}
+                initialValues={{ email: '', password: '', checkbox: false, DropdownItem: '' }}
+                onSubmit={values => { console.log("values==", values); }}
                 validationSchema={loginValidationSchema}
             >
                 {({
@@ -63,15 +66,33 @@ const Login = (props) => {
                             value={values.password}
                         />
                         {errors.password ? <Text>{errors.password}</Text> : ''}
-                        <Checkbox
+                        {/* <Checkbox
                             onPress={() => { checkboxStatus === 'checked' ? setCheckBoxStatus('unchecked') : setCheckBoxStatus('checked') }}
-                            status={checkboxStatus} />
+                            status={checkboxStatus}
+                        /> */}
+
+                        <Checkbox
+                            onPress={() => {
+                                setFieldValue('checkbox', !values.checkbox)
+                            }}
+                            status={values.checkbox ? 'checked' : 'unchecked'}
+                            value={values.checkbox}
+                        />
+                        {errors.checkbox ? <Text>{errors.checkbox}</Text> : null}
+
+                        <DropDownList
+                            onChange={(data) => { setFieldValue("DropdownItem", data.label); }} />
+                        {errors.DropdownItem ? <Text>{errors.DropdownItem}</Text> : null}
+
                         <Button style={{ marginTop: 30 }} onPress={handleSubmit}>
                             Login
                         </Button>
                     </View>
                 }
             </Formik>
+            <FontRegularText>Hello Nirala</FontRegularText>
+            <CustomTextInput 
+            placeholder={'name'}/>
         </View>
     )
 }
