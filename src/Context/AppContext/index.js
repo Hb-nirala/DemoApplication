@@ -2,13 +2,14 @@ import React, { createContext, useMemo, useState } from 'react'
 import * as yup from 'yup'
 import AsyncStore from '../../lib/AsyncStore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import DropDownList from '../../components/DropDownList';
 
 const AppContext = createContext({});
 
 export const AppContextProvider = ({ children }) => {
     const [loginData, setLoginData] = useState({})
     const [localLoginData, setLocalLoginData] = useState({})
-    const [checkboxStatus,setCheckBoxStatus]=useState('unchecked')
+    const [checkboxStatus, setCheckBoxStatus] = useState('unchecked')
 
     const appBarClick = () => {
         console.log("appBarClick======");
@@ -57,8 +58,10 @@ export const AppContextProvider = ({ children }) => {
 
         //Minimum eight characters, at least one letter, one number and one special character:
         password: yup.string().matches(passwordRegex, "please enter valid password")
-            .required('please enter password')
+            .required('please enter password'),
 
+        checkbox: yup.boolean().oneOf([true], 'enable terms & condition'),
+        DropdownItem: yup.string().required('please Select one')
         // email: formValidation({
         //     required:'please enter email required',
         //     regex : /\d/,
@@ -87,7 +90,7 @@ export const AppContextProvider = ({ children }) => {
         //State
         loginData, setLoginData,
         localLoginData, setLocalLoginData,
-        checkboxStatus,setCheckBoxStatus,
+        checkboxStatus, setCheckBoxStatus,
 
         //variable
 
@@ -103,7 +106,7 @@ export const AppContextProvider = ({ children }) => {
             //State
             loginData, setLoginData,
             localLoginData, setLocalLoginData,
-            checkboxStatus,setCheckBoxStatus,
+            checkboxStatus, setCheckBoxStatus,
 
             //variable
 
