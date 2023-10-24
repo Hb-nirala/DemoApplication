@@ -29,6 +29,8 @@ import com.airbnb.android.react.lottie.LottiePackage;
 import com.ReactNativeBlobUtil.ReactNativeBlobUtilPackage;
 // react-native-camera
 import org.reactnative.camera.RNCameraPackage;
+// react-native-document-picker
+import com.reactnativedocumentpicker.RNDocumentPickerPackage;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-image-crop-picker
@@ -46,7 +48,7 @@ import org.wonday.orientation.OrientationPackage;
 // react-native-pager-view
 import com.reactnativepagerview.PagerViewPackage;
 // react-native-pdf
-import org.wonday.pdf.RCTPdfView;
+import org.wonday.pdf.RNPDFPackage;
 // react-native-permissions
 import com.zoontek.rnpermissions.RNPermissionsPackage;
 // react-native-reanimated
@@ -121,6 +123,7 @@ public class PackageList {
       new LottiePackage(),
       new ReactNativeBlobUtilPackage(),
       new RNCameraPackage(),
+      new RNDocumentPickerPackage(),
       new RNGestureHandlerPackage(),
       new PickerPackage(),
       new ImagePickerPackage(),
@@ -129,7 +132,7 @@ public class PackageList {
       new MapsPackage(),
       new OrientationPackage(),
       new PagerViewPackage(),
-      new RCTPdfView(),
+      new RNPDFPackage(),
       new RNPermissionsPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),

@@ -1,28 +1,50 @@
 import React, { createContext, useMemo, useState } from 'react'
 import * as yup from 'yup'
-import AsyncStore from '../../../lib/AsyncStore';
+import AsyncStore from '../../lib/AsyncStore';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import DropDownList from '../../components/DropDownList';
 
 const AppContext = createContext({});
 
 export const AppContextProvider = ({ children }) => {
     const [loginData, setLoginData] = useState({})
-    const [localLoginData,setLocalLoginData]=useState({})
+    const [localLoginData, setLocalLoginData] = useState({})
+    const [checkboxStatus, setCheckBoxStatus] = useState('unchecked')
 
     const appBarClick = () => {
         console.log("appBarClick======");
     }
 
     const onLoginClick = (values, props) => {
-        // console.log("values==", typeof JSON.stringify(values));
+        console.log("values==",JSON.stringify(values));
         setLoginData(values)
         storeLoginData(values)
-        props.navigation.navigate('User', { values })
+        props.navigation.navigate('UserNavigator', { values })
     }
 
     const storeLoginData = async (values) => {
-        await AsyncStorage.setItem('loginData', JSON.stringify(values))
+        // if (checkboxStatus === 'checked') {
+            await AsyncStorage.setItem(AsyncStore.react_native, 'checked')
+            await AsyncStorage.setItem('loginData', JSON.stringify(values))
+            console.log("storeLoginData====",JSON.stringify(values));
+        // }
+        // else {
+        //     await AsyncStorage.setItem(AsyncStore.react_native, 'unchecked')
+        //     // console.log('Hii');
+        // }
         // console.log("========", await AsyncStorage.setItem('loginData', JSON.stringify(values)));
+    }
+
+    const onLogoutClick = async (props) => {
+        setLoginData('')
+        await AsyncStorage.removeItem('loginData')
+        props.navigation.navigate('Login')
+    }
+    const TermsandConditionClick = (props) =>{
+        props.navigation.navigate('TermsandCondition')
+    }
+    const PrivacyPolicyClick =(props) =>{
+        props.navigation.navigate('PrivacyPolicy')
     }
 
     // var regex = /\d/;
@@ -43,8 +65,10 @@ export const AppContextProvider = ({ children }) => {
 
         //Minimum eight characters, at least one letter, one number and one special character:
         password: yup.string().matches(passwordRegex, "please enter valid password")
-            .required('please enter password')
+            .required('please enter password'),
 
+        checkbox: yup.boolean().oneOf([true], 'enable terms & condition'),
+        // DropdownItem: yup.string().required('please Select one')
         // email: formValidation({
         //     required:'please enter email required',
         //     regex : /\d/,
@@ -72,13 +96,17 @@ export const AppContextProvider = ({ children }) => {
 
         //State
         loginData, setLoginData,
-        localLoginData,setLocalLoginData,
+        localLoginData, setLocalLoginData,
+        checkboxStatus, setCheckBoxStatus,
 
         //variable
 
         //function
         appBarClick,
-        onLoginClick
+        onLoginClick,
+        onLogoutClick,
+        TermsandConditionClick,
+        PrivacyPolicyClick
     }),
         [
             //Schema
@@ -86,13 +114,17 @@ export const AppContextProvider = ({ children }) => {
 
             //State
             loginData, setLoginData,
-            localLoginData,setLocalLoginData,
+            localLoginData, setLocalLoginData,
+            checkboxStatus, setCheckBoxStatus,
 
             //variable
 
             //function
             appBarClick,
-            onLoginClick
+            onLoginClick,
+            onLogoutClick,
+            TermsandConditionClick,
+            PrivacyPolicyClick
         ])
 
     return (

@@ -5,8 +5,6 @@ import { Button, Modal, PaperProvider, Portal } from 'react-native-paper';
 import Icon from 'react-native-vector-icons/AntDesign'
 import Iconone from 'react-native-vector-icons/Entypo'
 import RNFetchBlob from 'rn-fetch-blob'
-import AsyncStore from '../../../lib/AsyncStore';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { PermissionsAndroid, Platform } from 'react-native';
 
 const deviceWidth = Dimensions.get('window').width;
