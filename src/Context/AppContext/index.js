@@ -16,21 +16,22 @@ export const AppContextProvider = ({ children }) => {
     }
 
     const onLoginClick = (values, props) => {
-        // console.log("values==", typeof JSON.stringify(values));
+        console.log("values==",JSON.stringify(values));
         setLoginData(values)
         storeLoginData(values)
         props.navigation.navigate('UserNavigator', { values })
     }
 
     const storeLoginData = async (values) => {
-        if (checkboxStatus === 'checked') {
+        // if (checkboxStatus === 'checked') {
             await AsyncStorage.setItem(AsyncStore.react_native, 'checked')
             await AsyncStorage.setItem('loginData', JSON.stringify(values))
-        }
-        else {
-            await AsyncStorage.setItem(AsyncStore.react_native, 'unchecked')
-            // console.log('Hii');
-        }
+            console.log("storeLoginData====",JSON.stringify(values));
+        // }
+        // else {
+        //     await AsyncStorage.setItem(AsyncStore.react_native, 'unchecked')
+        //     // console.log('Hii');
+        // }
         // console.log("========", await AsyncStorage.setItem('loginData', JSON.stringify(values)));
     }
 
@@ -38,6 +39,12 @@ export const AppContextProvider = ({ children }) => {
         setLoginData('')
         await AsyncStorage.removeItem('loginData')
         props.navigation.navigate('Login')
+    }
+    const TermsandConditionClick = (props) =>{
+        props.navigation.navigate('TermsandCondition')
+    }
+    const PrivacyPolicyClick =(props) =>{
+        props.navigation.navigate('PrivacyPolicy')
     }
 
     // var regex = /\d/;
@@ -61,7 +68,7 @@ export const AppContextProvider = ({ children }) => {
             .required('please enter password'),
 
         checkbox: yup.boolean().oneOf([true], 'enable terms & condition'),
-        DropdownItem: yup.string().required('please Select one')
+        // DropdownItem: yup.string().required('please Select one')
         // email: formValidation({
         //     required:'please enter email required',
         //     regex : /\d/,
@@ -97,7 +104,9 @@ export const AppContextProvider = ({ children }) => {
         //function
         appBarClick,
         onLoginClick,
-        onLogoutClick
+        onLogoutClick,
+        TermsandConditionClick,
+        PrivacyPolicyClick
     }),
         [
             //Schema
@@ -113,7 +122,9 @@ export const AppContextProvider = ({ children }) => {
             //function
             appBarClick,
             onLoginClick,
-            onLogoutClick
+            onLogoutClick,
+            TermsandConditionClick,
+            PrivacyPolicyClick
         ])
 
     return (
