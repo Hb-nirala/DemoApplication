@@ -48,7 +48,7 @@ import org.wonday.orientation.OrientationPackage;
 // react-native-pager-view
 import com.reactnativepagerview.PagerViewPackage;
 // react-native-pdf
-import org.wonday.pdf.RCTPdfView;
+import org.wonday.pdf.RNPDFPackage;
 // react-native-permissions
 import com.zoontek.rnpermissions.RNPermissionsPackage;
 // react-native-reanimated
@@ -132,7 +132,7 @@ public class PackageList {
       new MapsPackage(),
       new OrientationPackage(),
       new PagerViewPackage(),
-      new RCTPdfView(),
+      new RNPDFPackage(),
       new RNPermissionsPackage(),
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
